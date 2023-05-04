@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #00081d;
+}
+/* <======NavBar CSS=======> */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin: 24px;
+}
+.navbar__button {
+  display: flex;
+  align-items: center;
+}
+.navbar select {
+  padding: 6px 15px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #5e5f61;
+  outline: none;
+  background-color: #0f1118;
+  color: #fff;
+  display: block;
+}
+button.sign_in {
+  background-color: #c11119;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 11px;
+
+  font-size: 15px;
+  color: #fff;
+}
+
+/* <========Get Started Css=======> */
+
+.getstarted_background {
+  background-image: linear-gradient(
+      65.68deg,
+      rgba(0, 8, 29, 0.6) 9.51%,
+      rgba(53, 13, 49, 0.6) 72.89%,
+      rgba(132, 5, 25, 0.6) 101.01%
+    ),
+    linear-gradient(
+      102.21deg,
+      rgba(0, 0, 0, 0.04) 16.09%,
+      rgba(1, 1, 1, 0.17) 39.27%,
+      rgba(1, 1, 1, 0.24) 64.25%,
+      rgba(4, 4, 4, 0.8) 96.63%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  width: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.getstarted_content {
+  color: #fff;
+  padding: 94px 80px;
+}
+.getstarted_content h1 {
+  font-size: 64px;
+  font-weight: 900;
+  padding-right: 400px;
+}
+.getstarted_content p {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.getstarted_content h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.getstarted_login {
+  display: flex;
+  margin-top: 20px;
+}
+.getstarted_email input {
+  width: 400px;
+  padding: 20px 30px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: transparent;
+  background-color: #242127;
+  outline: none;
+  border: 1px solid #5e5f61;
+  border-radius: 8px;
+}
+.getstarted_button button {
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  background-color: #c11119;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+/* 
+<==========TV ASSEMBLY=======> */
+.TV {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.tv_assembly {
+  display: flex;
+  justify-content: center;
+}
+.tv1 {
+  padding: 0px;
+  margin-top: 16px;
+  margin-left: 16px;
+  position: relative;
+  background: radial-gradient(
+    99.93% 134.44% at 17.93% 0%,
+    #09143c 0%,
+    #101338 57.21%,
+    #400e20 99.57%
+  );
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+}
+.tv1 h3 {
+  font-size: 24px;
+  padding-left: 30px;
+}
+.tv1 p {
+  font-size: 16px;
+  padding-left: 30px;
+}
+.tv2 {
+  padding: 0px;
+  margin-top: 16px;
+  margin-left: 16px;
+  position: relative;
+  background: radial-gradient(
+    99.93% 134.44% at 17.93% 0%,
+    #09143c 0%,
+    #101338 57.21%,
+    #400e20 99.57%
+  );
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+}
+.tv2 h3 {
+  font-size: 24px;
+  padding-left: 30px;
+}
+.tv2 p {
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+/* <=======FAQ SECTION ======> */
+
+.FAQ {
+  font-size: 40px;
+  color: #fff;
+
+  padding: 40px;
+  padding-left: 100px;
+}
+.faq_button {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.button_align {
+  justify-content: space-between;
+}
+.button_align button {
+  width: 90%;
+  padding: 20px 10px;
+  background-color: #223362;
+  color: #fff;
+  border: 1px solid black;
+  outline: none;
+}
+span {
+  font-size: 24px;
+  color: #fff;
+}
+.text {
+  width: 89.9%;
+  padding: 20px 8px;
+  background-color: #223362;
+  margin: 0 auto;
+}
